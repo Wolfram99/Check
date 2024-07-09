@@ -1,6 +1,5 @@
 package ru.clevertec.check.dao;
 
-import main.java.ru.clevertec.check.models.Product;
 import ru.clevertec.check.models.Product;
 
 import java.sql.Connection;

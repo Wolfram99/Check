@@ -1,6 +1,8 @@
 package ru.clevertec.check.service.FormationResult;
 
-import main.java.ru.clevertec.check.service.print.Logger;
+
+
+import ru.clevertec.check.service.print.Logger;
 
 import java.util.Objects;
 
