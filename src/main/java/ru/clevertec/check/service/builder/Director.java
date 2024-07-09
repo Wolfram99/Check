@@ -32,6 +32,12 @@ public class Director {
                 .build();
 
     }
+    public static ErrorReceipt createErrorReceipt(String message, String path){
+        return ErrorReceipt.builder()
+                .logger(new WriteToFileAndConsole(new WriteToFile(path)))
+                .message(message)
+                .build();
+    }
 
     public static ErrorReceipt createErrorReceipt(String message){
         return ErrorReceipt.builder()
