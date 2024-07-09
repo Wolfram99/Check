@@ -1,4 +1,4 @@
-package main.java.ru.clevertec.check.dao;
+package ru.clevertec.check.dao;
 
 public interface DaoDQL<E> {
 

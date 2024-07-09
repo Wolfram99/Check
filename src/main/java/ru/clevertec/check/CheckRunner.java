@@ -1,7 +1,7 @@
-package main.java.ru.clevertec.check;
+package ru.clevertec.check;
 
-import main.java.ru.clevertec.check.service.CashRegister;
-import main.java.ru.clevertec.check.service.CashRegisterTask2;
+import ru.clevertec.check.service.CashRegister;
+import ru.clevertec.check.service.CashRegisterTask2;
 
 public class CheckRunner {
 

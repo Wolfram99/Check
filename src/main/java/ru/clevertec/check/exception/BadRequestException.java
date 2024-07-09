@@ -1,6 +1,4 @@
-package main.java.ru.clevertec.check.exception;
-
-import main.java.ru.clevertec.check.service.builder.Director;
+package ru.clevertec.check.exception;
 
 public class BadRequestException extends Exception {
 

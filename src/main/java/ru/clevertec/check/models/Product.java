@@ -1,4 +1,4 @@
-package main.java.ru.clevertec.check.models;
+package ru.clevertec.check.models;
 
 import java.math.BigDecimal;
 import java.util.Objects;

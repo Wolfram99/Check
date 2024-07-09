@@ -1,4 +1,4 @@
-package main.java.ru.clevertec.check.service.FormationResult;
+package ru.clevertec.check.service.FormationResult;
 
 public abstract class Receipt {
 

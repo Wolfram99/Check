@@ -1,10 +1,11 @@
-package main.java.ru.clevertec.check.service.FormationResult;
+package ru.clevertec.check.service.FormationResult;
 
-import main.java.ru.clevertec.check.exception.NotEnoughMoneyException;
-import main.java.ru.clevertec.check.models.DiscountCard;
-import main.java.ru.clevertec.check.models.Product;
-import main.java.ru.clevertec.check.service.builder.Director;
+
 import main.java.ru.clevertec.check.service.print.Logger;
+import ru.clevertec.check.exception.NotEnoughMoneyException;
+import ru.clevertec.check.models.DiscountCard;
+import ru.clevertec.check.models.Product;
+import ru.clevertec.check.service.builder.Director;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

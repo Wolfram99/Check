@@ -1,4 +1,4 @@
-package main.java.ru.clevertec.check.service.print;
+package ru.clevertec.check.service.print;
 
 public interface Logger {
 

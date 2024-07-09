@@ -1,4 +1,4 @@
-package main.java.ru.clevertec.check.service.print;
+package ru.clevertec.check.service.print;
 
 public class WriteToFileAndConsole implements Logger {
     private Logger wtf = new WriteToFile();

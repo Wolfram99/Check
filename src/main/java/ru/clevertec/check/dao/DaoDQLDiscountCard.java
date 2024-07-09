@@ -1,6 +1,7 @@
-package main.java.ru.clevertec.check.dao;
+package ru.clevertec.check.dao;
 
-import main.java.ru.clevertec.check.models.DiscountCard;
+
+import ru.clevertec.check.models.DiscountCard;
 
 public interface DaoDQLDiscountCard{
 

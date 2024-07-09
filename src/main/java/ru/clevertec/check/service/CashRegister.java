@@ -1,16 +1,14 @@
-package main.java.ru.clevertec.check.service;
+package ru.clevertec.check.service;
 
-import main.java.ru.clevertec.check.dao.DaoDQL;
-import main.java.ru.clevertec.check.dao.DaoDQLDiscountCard;
-import main.java.ru.clevertec.check.dao.DiscountCardDaoFromCSV;
-import main.java.ru.clevertec.check.dao.ProductDaoFromCSV;
-import main.java.ru.clevertec.check.exception.BadRequestException;
-import main.java.ru.clevertec.check.models.DiscountCard;
-import main.java.ru.clevertec.check.models.Product;
-import main.java.ru.clevertec.check.service.FormationResult.SuccessReceipt;
-import main.java.ru.clevertec.check.service.builder.Director;
-import main.java.ru.clevertec.check.service.print.WriteToConsole;
-import main.java.ru.clevertec.check.service.print.WriteToFileAndConsole;
+import ru.clevertec.check.dao.DaoDQL;
+import ru.clevertec.check.dao.DaoDQLDiscountCard;
+import ru.clevertec.check.dao.DiscountCardDaoFromCSV;
+import ru.clevertec.check.dao.ProductDaoFromCSV;
+import ru.clevertec.check.exception.BadRequestException;
+import ru.clevertec.check.models.DiscountCard;
+import ru.clevertec.check.models.Product;
+import ru.clevertec.check.service.builder.Director;
+
 
 import java.math.BigDecimal;
 import java.util.HashMap;

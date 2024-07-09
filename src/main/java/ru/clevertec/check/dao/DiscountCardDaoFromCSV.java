@@ -1,9 +1,10 @@
-package main.java.ru.clevertec.check.dao;
+package ru.clevertec.check.dao;
 
-import main.java.ru.clevertec.check.exception.BadRequestException;
-import main.java.ru.clevertec.check.exception.InternalServerException;
-import main.java.ru.clevertec.check.models.DiscountCard;
-import main.java.ru.clevertec.check.service.builder.Director;
+import ru.clevertec.check.dao.DaoDQL;
+import ru.clevertec.check.exception.BadRequestException;
+import ru.clevertec.check.exception.InternalServerException;
+import ru.clevertec.check.models.DiscountCard;
+import ru.clevertec.check.service.builder.Director;
 
 import java.io.*;
 import java.nio.file.Files;

@@ -1,7 +1,7 @@
-package main.java.ru.clevertec.check.service.dataConvertor;
+package ru.clevertec.check.service.dataConvertor;
 
-import main.java.ru.clevertec.check.exception.InternalServerException;
-import main.java.ru.clevertec.check.service.builder.Director;
+import ru.clevertec.check.exception.InternalServerException;
+import ru.clevertec.check.service.builder.Director;
 
 import java.math.BigDecimal;
 import java.text.DecimalFormat;

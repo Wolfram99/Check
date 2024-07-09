@@ -1,6 +1,8 @@
-package main.java.ru.clevertec.check.service.print;
+package ru.clevertec.check.service.print;
 
-import main.java.ru.clevertec.check.exception.InternalServerException;
+
+
+import ru.clevertec.check.exception.InternalServerException;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
